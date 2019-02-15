@@ -1,0 +1,15 @@
+---
+resources:
+- name: repo
+  type: git
+  source:
+    uri: https://github.com/BasLaravel/Micro-users
+    branch: master
+
+jobs:
+- name: first-job
+  public: true
+  plan:
+  - get: repo
+  - task: hello-world
+    file: repo/ci/tasks/task_1.yml
