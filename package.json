@@ -1,0 +1,26 @@
+{
+  "name": "Micro-users",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BasLaravel/Micro-users.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BasLaravel/Micro-users/issues"
+  },
+  "homepage": "https://github.com/BasLaravel/Micro-users#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
